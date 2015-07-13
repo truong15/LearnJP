@@ -12,10 +12,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var naviController: SlideNavigationController?
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        let homeVC = HomeVC(nibName: "HomeVC", bundle: nil)
+        self.naviController = SlideNavigationController(rootViewController: homeVC)
+        self.window?.rootViewController = self.naviController
+        
+        let menuVC = MenuVC(nibName: "MenuVC", bundle: nil)
+        SlideNavigationController.sharedInstance().leftMenu = menuVC
+        SlideNavigationController.sharedInstance().menuRevealAnimationDuration = 0.18
+        
+        self.window?.backgroundColor = UIColor.whiteColor()
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 
