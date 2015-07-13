@@ -14,12 +14,23 @@ class MenuVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-         // Do any additional setup after loading the view.
+        setupUI()
+        setupData()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func setupUI() {
+        //Delete all unnecessary separator line
+        self.menuTable.tableFooterView = UIView(frame: CGRectZero)
+        print("\(__FUNCTION__)  \(NSStringFromCGRect(CGRectZero))")
+    }
+    
+    func setupData() {
+        
     }
     
     //MARK: - UITableViewDelegate + Datasource
