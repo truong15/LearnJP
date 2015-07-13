@@ -13,8 +13,6 @@
 		AC1C2A5C1B536F04001688C2 /* LearnJPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C2A5B1B536F04001688C2 /* LearnJPTests.swift */; };
 		AC1C2A6D1B537015001688C2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C2A6B1B537015001688C2 /* HomeVC.swift */; };
 		AC1C2A6E1B537015001688C2 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1C2A6C1B537015001688C2 /* HomeVC.xib */; };
-		AC1C2A721B53708F001688C2 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C2A701B53708F001688C2 /* MenuVC.swift */; };
-		AC1C2A731B53708F001688C2 /* MenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1C2A711B53708F001688C2 /* MenuVC.xib */; };
 		AC1C2A861B5370AC001688C2 /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1C2A781B5370AC001688C2 /* SlideNavigationContorllerAnimatorFade.m */; };
 		AC1C2A871B5370AC001688C2 /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1C2A7A1B5370AC001688C2 /* SlideNavigationContorllerAnimatorScale.m */; };
 		AC1C2A881B5370AC001688C2 /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1C2A7C1B5370AC001688C2 /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
@@ -27,6 +25,8 @@
 		AC1C2A971B537197001688C2 /* animation.png in Resources */ = {isa = PBXBuildFile; fileRef = AC1C2A931B537197001688C2 /* animation.png */; };
 		AC1C2A981B537197001688C2 /* leftMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1C2A941B537197001688C2 /* leftMenu.jpg */; };
 		AC1C2A991B537197001688C2 /* rightMenu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC1C2A951B537197001688C2 /* rightMenu.jpg */; };
+		AC1C2AA61B53A8E8001688C2 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1C2AA41B53A8E8001688C2 /* MenuVC.swift */; };
+		AC1C2AA71B53A8E8001688C2 /* MenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1C2AA51B53A8E8001688C2 /* MenuVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,6 @@
 		AC1C2A5B1B536F04001688C2 /* LearnJPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnJPTests.swift; sourceTree = "<group>"; };
 		AC1C2A6B1B537015001688C2 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		AC1C2A6C1B537015001688C2 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
-		AC1C2A701B53708F001688C2 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
-		AC1C2A711B53708F001688C2 /* MenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuVC.xib; sourceTree = "<group>"; };
 		AC1C2A761B5370AC001688C2 /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
 		AC1C2A771B5370AC001688C2 /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
 		AC1C2A781B5370AC001688C2 /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
@@ -72,6 +70,8 @@
 		AC1C2A941B537197001688C2 /* leftMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leftMenu.jpg; sourceTree = "<group>"; };
 		AC1C2A951B537197001688C2 /* rightMenu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rightMenu.jpg; sourceTree = "<group>"; };
 		AC1C2AA31B539A56001688C2 /* LearnJP-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LearnJP-Bridging-Header.h"; path = "LearnJP/LearnJP-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC1C2AA41B53A8E8001688C2 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		AC1C2AA51B53A8E8001688C2 /* MenuVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,8 +204,8 @@
 		AC1C2A6F1B537074001688C2 /* MenuVC */ = {
 			isa = PBXGroup;
 			children = (
-				AC1C2A701B53708F001688C2 /* MenuVC.swift */,
-				AC1C2A711B53708F001688C2 /* MenuVC.xib */,
+				AC1C2AA41B53A8E8001688C2 /* MenuVC.swift */,
+				AC1C2AA51B53A8E8001688C2 /* MenuVC.xib */,
 			);
 			path = MenuVC;
 			sourceTree = "<group>";
@@ -368,7 +368,7 @@
 				AC1C2A981B537197001688C2 /* leftMenu.jpg in Resources */,
 				AC1C2A8B1B5370AC001688C2 /* menu-button.png in Resources */,
 				AC1C2A991B537197001688C2 /* rightMenu.jpg in Resources */,
-				AC1C2A731B53708F001688C2 /* MenuVC.xib in Resources */,
+				AC1C2AA71B53A8E8001688C2 /* MenuVC.xib in Resources */,
 				AC1C2A6E1B537015001688C2 /* HomeVC.xib in Resources */,
 				AC1C2A4D1B536F04001688C2 /* Images.xcassets in Resources */,
 				AC1C2A8C1B5370AC001688C2 /* menu-button@2x.png in Resources */,
@@ -395,9 +395,9 @@
 				AC1C2A461B536F04001688C2 /* AppDelegate.swift in Sources */,
 				AC1C2A6D1B537015001688C2 /* HomeVC.swift in Sources */,
 				AC1C2A861B5370AC001688C2 /* SlideNavigationContorllerAnimatorFade.m in Sources */,
-				AC1C2A721B53708F001688C2 /* MenuVC.swift in Sources */,
 				AC1C2A8A1B5370AC001688C2 /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				AC1C2A891B5370AC001688C2 /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				AC1C2AA61B53A8E8001688C2 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

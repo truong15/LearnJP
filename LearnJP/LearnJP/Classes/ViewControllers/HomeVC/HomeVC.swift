@@ -24,6 +24,11 @@ class HomeVC: UIViewController,SlideNavigationControllerDelegate {
         super.viewWillAppear(animated)
         self.navigationController?.navigationBarHidden = true
     }
+    
+    override func viewDidAppear(animated: Bool) {
+        self.menuButton.sendActionsForControlEvents(UIControlEvents.TouchUpInside)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
